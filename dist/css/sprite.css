@@ -18,49 +18,199 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-001-money {
   background-image: url(../img/sprite.png);
-  background-position: 0px -32px;
+  background-position: 0px -145px;
   width: 31px;
   height: 26px;
 }
 .icon-002-building {
   background-image: url(../img/sprite.png);
-  background-position: -31px 0px;
+  background-position: -168px -61px;
   width: 31px;
   height: 31px;
 }
 .icon-003-insurance {
   background-image: url(../img/sprite.png);
-  background-position: -62px 0px;
+  background-position: -168px -92px;
   width: 27px;
   height: 32px;
 }
+.icon-accord {
+  background-image: url(../img/sprite.png);
+  background-position: -216px -29px;
+  width: 6px;
+  height: 11px;
+}
 .icon-airplane {
   background-image: url(../img/sprite.png);
-  background-position: 0px 0px;
+  background-position: -168px -29px;
   width: 31px;
   height: 32px;
 }
 .icon-fb {
   background-image: url(../img/sprite.png);
-  background-position: -31px -32px;
+  background-position: -199px -61px;
   width: 17px;
   height: 17px;
 }
+.icon-flag_Austria {
+  background-image: url(../img/sprite.png);
+  background-position: -56px -58px;
+  width: 56px;
+  height: 29px;
+}
+.icon-flag_Belgium {
+  background-image: url(../img/sprite.png);
+  background-position: -112px 0px;
+  width: 56px;
+  height: 29px;
+}
+.icon-flag_China {
+  background-image: url(../img/sprite.png);
+  background-position: -112px -29px;
+  width: 56px;
+  height: 29px;
+}
+.icon-flag_Czech-Republic {
+  background-image: url(../img/sprite.png);
+  background-position: -112px -58px;
+  width: 56px;
+  height: 29px;
+}
+.icon-flag_Denmark {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 56px;
+  height: 29px;
+}
+.icon-flag_Estonia {
+  background-image: url(../img/sprite.png);
+  background-position: -56px -87px;
+  width: 56px;
+  height: 29px;
+}
+.icon-flag_Germany {
+  background-image: url(../img/sprite.png);
+  background-position: -112px -87px;
+  width: 56px;
+  height: 29px;
+}
+.icon-flag_Greece {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -116px;
+  width: 56px;
+  height: 29px;
+}
+.icon-flag_Hungary {
+  background-image: url(../img/sprite.png);
+  background-position: -56px -116px;
+  width: 56px;
+  height: 29px;
+}
+.icon-flag_Iceland {
+  background-image: url(../img/sprite.png);
+  background-position: -112px -116px;
+  width: 56px;
+  height: 29px;
+}
+.icon-flag_Italy {
+  background-image: url(../img/sprite.png);
+  background-position: -56px 0px;
+  width: 56px;
+  height: 29px;
+}
+.icon-flag_Netherlands {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -87px;
+  width: 56px;
+  height: 29px;
+}
+.icon-flag_Portugal {
+  background-image: url(../img/sprite.png);
+  background-position: -56px -29px;
+  width: 56px;
+  height: 29px;
+}
+.icon-flag_Spain {
+  background-image: url(../img/sprite.png);
+  background-position: -168px 0px;
+  width: 56px;
+  height: 29px;
+}
+.icon-flag_Sweden {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -58px;
+  width: 56px;
+  height: 29px;
+}
+.icon-flag_Visa-Countries {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -29px;
+  width: 56px;
+  height: 29px;
+}
+.icon-foot-fb {
+  background-image: url(../img/sprite.png);
+  background-position: -195px -92px;
+  width: 28px;
+  height: 28px;
+}
+.icon-foot-info1 {
+  background-image: url(../img/sprite.png);
+  background-position: -199px -46px;
+  width: 12px;
+  height: 14px;
+}
+.icon-foot-info2 {
+  background-image: url(../img/sprite.png);
+  background-position: -211px -46px;
+  width: 12px;
+  height: 12px;
+}
+.icon-foot-info3 {
+  background-image: url(../img/sprite.png);
+  background-position: -199px -78px;
+  width: 12px;
+  height: 9px;
+}
+.icon-foot-insta {
+  background-image: url(../img/sprite.png);
+  background-position: -28px -171px;
+  width: 26px;
+  height: 28px;
+}
+.icon-foot-pin {
+  background-image: url(../img/sprite.png);
+  background-position: -54px -171px;
+  width: 26px;
+  height: 28px;
+}
+.icon-foot-tw {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -171px;
+  width: 28px;
+  height: 28px;
+}
+.icon-foot-yt {
+  background-image: url(../img/sprite.png);
+  background-position: -31px -145px;
+  width: 26px;
+  height: 22px;
+}
 .icon-ph {
   background-image: url(../img/sprite.png);
-  background-position: -48px -32px;
+  background-position: -199px -29px;
   width: 17px;
   height: 17px;
 }
 .icon-play {
   background-image: url(../img/sprite.png);
-  background-position: 0px -58px;
+  background-position: -57px -145px;
   width: 16px;
   height: 18px;
 }
 .icon-tw {
   background-image: url(../img/sprite.png);
-  background-position: -65px -32px;
+  background-position: -168px -124px;
   width: 17px;
   height: 17px;
 }

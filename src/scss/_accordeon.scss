@@ -10,15 +10,20 @@ button.accordion {
   transition: 0.4s;
   font-family: $f-g-m;
   border-bottom: 1px solid #F1F1F1;
-  height: 77px;
+  min-height: 77px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  line-height: 1.5;
   &:last-child{
     border-bottom: none;
   }
+  >span:first-child{
+    padding-right: 10px;
+  }
   .targ{
-    width: 34px;
+    flex-basis: 20%;
+    max-width: 34px;
     height: 34px;
     border-radius: 50%;
     background-color: #F7F7F7;

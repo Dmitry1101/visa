@@ -1,0 +1,31 @@
+.kd89-search{
+	max-width: 580px;
+	width: 100%;
+	background: #fff url('../img/searchh.png') 20px center no-repeat;
+	border-radius: 50px;
+	margin: 30px auto;
+	overflow: hidden;
+	position: relative;
+
+	&__inp{
+		height: 50px;
+		width: 100%;
+		background-color: transparent;
+		border: none;
+		padding: 0 170px 0 50px;
+		color: $c-bck;
+	}
+	&__butt{
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 50px;
+		width: 162px;
+		border-radius: 50px;
+		border: none;
+		background-color: $c-yw;
+		&:hover{
+			background-color: darken( $c-yw, 10 );
+		}
+	}
+}

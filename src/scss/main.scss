@@ -60,6 +60,11 @@ body{
 			display: inline-block;
 			margin: 5px;
 		}
+		a{
+			&:hover{
+				opacity: .6;
+			}
+		}
 	}
 	&__phone{
 		font-size: 14px;	
@@ -454,16 +459,7 @@ body{
 				background-color: #FFE6BE;
 			}
 		}
-		.under-2{
-			&:after{
-				content: "";
-				height: 6px;
-				display: block;
-				width: 95px;
-				margin: 30px auto;
-				background-color: #B5E6E7;
-			}
-		}
+		
 		&-2{
 			font-size: 14px;
 			.tbl{
@@ -479,7 +475,16 @@ body{
 		}
 	}
 }
-
+.under-2{
+	&:after{
+		content: "";
+		height: 6px;
+		display: block;
+		width: 95px;
+		margin: 30px auto;
+		background-color: #B5E6E7;
+	}
+}
 .foot{
 	background: url('../img/foot-bg.jpg') center no-repeat;
 	background-size: cover;
@@ -515,6 +520,11 @@ body{
 		li{
 			display: inline-block;
 			margin-right: 6px;
+		}
+		a{
+			&:hover{
+				opacity: .6;
+			}
 		}
 	}
 	&__logo{
@@ -568,6 +578,33 @@ body{
 	}
 }
 
+.jumbo-3{
+	min-height: 870px;
+	position: relative;
+	align-items: flex-start;
+	justify-content: center;
+	&__txt{
+		position: relative;
+		z-index: 2;
+		color: $c-wh;
+		text-align: center;
+		transform: translateY(280px);
+		p{
+			font-size: 24px;
+			font-family: $f-g-li;
+		}
+	}
+	&:after{
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba( 0,0,0,0.6 );
+	}
+}
+
 .mainn{
 	background-color: #F7F7F7;
 }
@@ -578,8 +615,51 @@ body{
 	padding: 30px 40px 40px;
 }
 
+.faqq{
+	justify-content: space-between;
+	&__itt{
+		flex-basis: 49.2%;
+		background-color: $c-wh;
+		padding: 20px 30px;
+		margin-bottom: 20px;
+		button.accordion{
+			font-family: $f-g-r;
+		}
+	}
+	&-2{
+		&__butt{
+			font-family: 'MyriadProRegular';
+			font-size: 15px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		a{
+			color: $c-bck;
+		}
+	}
+}
 
-
+.cont-us{
+	justify-content: space-between;
+	&__blck{
+		flex-basis: 49%;
+	}
+	.blck-1{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.blck-2{
+		padding: 30px 50px;
+		background-color: $c-wh;
+		text-align: center;
+		font-family: $f-g-l;
+	}
+	&__sub{
+		background-color: $c-wh;
+		padding: 40px;
+	}
+}
 
 
 @import "media";

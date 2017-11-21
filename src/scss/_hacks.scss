@@ -112,8 +112,20 @@ h3{
 	margin-bottom: 20px;
 }
 
-h5{
+h4{
+	font-size: 24px;
+	font-family: $f-g-r;	
+	font-weight: 400;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
 
+h5{
+	font-size: 30px;
+	font-family: $f-g-r;	
+	font-weight: 400;
+	margin-top: 25px;
+	margin-bottom: 20px;
 }
 em{
 	font-style: italic;
@@ -124,11 +136,20 @@ em{
 }
 
 blockquote{
+	display: inline-block;
 	font-size: 24px;
 	font-family: $f-g-li;	
 	border-left: 9px solid $c-yw;
 	padding-left: 20px;
 	line-height: 1.7;
+	position: relative;
+	// &:before{
+	// 	content:"";
+	// 	display: flex;
+	// 	width: 9px;
+	// 	height: 100%;
+	// 	background-color: $c-yw;
+	// }
 }
 
 .content{
